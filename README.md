@@ -36,7 +36,6 @@ Simple Gunrock Compilation:
     cmake ..
     make
 
-For dataset, please download files from: https://snap.stanford.edu/data/egonets-Facebook.html
     Binary test files are available in build/bin directory.
     You can either run the test for all primitives by typing make check or ctest in the build directory, or do your own testings manually.
     Detailed test log from ctest can be found in /build/Testing/Temporary/LastTest.log, alternatively you can run tests with verbose option enabled ctest -v.
@@ -68,3 +67,5 @@ Example for compiling gunrock with only Breadth First Search (BFS) primitive:
 mkdir build && cd build
 cmake -DGUNROCK_BUILD_APPLICATIONS=OFF -DGUNROCK_APP_BFS=ON ..
 make
+
+For dataset, please download files from: https://snap.stanford.edu/data/egonets-Facebook.html
