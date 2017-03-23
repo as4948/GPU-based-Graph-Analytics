@@ -64,8 +64,8 @@ You can also compile gunrock with more specific/advanced settings using cmake -D
 
 Example for compiling gunrock with only Breadth First Search (BFS) primitive:
 
-mkdir build && cd build
-cmake -DGUNROCK_BUILD_APPLICATIONS=OFF -DGUNROCK_APP_BFS=ON ..
-make
+    mkdir build && cd build
+    cmake -DGUNROCK_BUILD_APPLICATIONS=OFF -DGUNROCK_APP_BFS=ON ..
+    make
 
 For dataset, please download files from: https://snap.stanford.edu/data/egonets-Facebook.html
